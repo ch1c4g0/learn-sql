@@ -51,7 +51,9 @@ C1:
   - A: sqlmap -u http://sqlmaptesting.thm/search/cat=1 -d members --tables
 
 [!TIP] Post requests will send the data inside the body rather than the URL, we can intercept that request and modify it w/ SQLMap to exploit the vuln.
+
 [!TIP] To find the GET parameters, use the inspect feature in your browser, go to network, and sent test credentials inside of the logon parameters, then use this URL for SQLmap.
+
 C2:
 - Flag_1:
   - Q: How many databases are available in this application?
